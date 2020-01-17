@@ -4,10 +4,8 @@ import "github.com/gin-gonic/gin"
 
 // structs are objects/classes
 type Dragon struct {
-	Name string;
-	Breed string;
-	Age int;
-	Female bool;
+	Name string; Breed string
+	Age int; Female bool
 }
 
 func handleDragon(context *gin.Context) {
